@@ -7,7 +7,6 @@ The Student Management System is an application that offers functionalities/serv
 - [Context](#context)
 - [Problem Overview](#problem-overview)
 - [Project Features](#project-features)
-- [Directory Structure](#directory-structure)
 - [Compilation and Execution](#compilation-and-execution)
 - [Performance Measurement](#performance-measurement)
 - [Assumptions](#assumptions)
@@ -39,39 +38,13 @@ The system supports three types of users: administrators, managers, and members.
 - Support for registration, search, update, and delete operations.
 - Differentiate between administrator, manager, and member roles.
 
-## Directory Structure
-
-StudentManagementSystem/
-├── registration_module/
-│ ├── registration.c
-│ └── registration.h
-├── server_module/
-│ ├── server.c
-│ └── server.h
-├── file_handling_module/
-│ ├── file_handling.c
-│ └── file_handling.h
-├── linked_list_module/
-│ ├── linked_list.c
-│ └── linked_list.h
-├── request_generation_module/
-│ ├── request_generation.c
-│ └── request_generation.h
-├── performance_measurement_module/
-│ ├── performance_measurement.c
-│ └── performance_measurement.h
-├── run.sh
-├── student_database.txt
-├── operation_queue.txt
-└── README.md
-
-
 ## Compilation and Execution
 
 The project can be compiled and executed using the provided `run.sh` script. The script will compile all the source files for each module and create executable files. To run the project, use the following command:
 
 ```bash
-./run.sh
+run.sh  
+```
 
 ## Performance Measurement
 
